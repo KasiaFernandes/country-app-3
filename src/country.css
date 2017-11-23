@@ -94,15 +94,12 @@ h2 {
     margin-top: 50px;
 }
 
-
-/*
-.country-logo {
-    width: 500px;
-    height: 400px;
+.country-logo-wrapper {
+    height: 100%;
+    width: 100%;
 }
-*/
 
-img {
-    width: 500px;
-    border: 1px solid black;
+.country-logo {
+    max-width: 100%;
+    max-height: 100%;
 }
